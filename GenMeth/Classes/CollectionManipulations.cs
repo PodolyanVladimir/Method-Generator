@@ -123,8 +123,8 @@ namespace GenMeth.Classes
 			if((openFileDialog1.ShowDialog() == DialogResult.OK)&&
 			   (openFileDialog1.FileName.Length > 0))
 			{
-				CurrentFileName = openFileDialog1.FileName;
-				Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. " + CurrentFileName;
+				Main_Form.CurrentFileName = openFileDialog1.FileName;
+				Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. " + Main_Form.CurrentFileName;
 				Main_Form.dataGridView1.Rows.Clear();
 				Main_Form.dataGridView2.Rows.Clear();
 				
@@ -315,8 +315,8 @@ namespace GenMeth.Classes
 			if((saveFileDialog1.ShowDialog() == DialogResult.OK)&&
 			   (saveFileDialog1.FileName.Length > 0))
 			{
-				CurrentFileName = saveFileDialog1.FileName;
-				Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. " + CurrentFileName;
+				Main_Form.CurrentFileName = saveFileDialog1.FileName;
+				Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. " + Main_Form.CurrentFileName;
 				FileStream fout = new FileStream(saveFileDialog1.FileName, FileMode.Create);
 				StreamWriter sw = new StreamWriter(fout);
 				
@@ -439,8 +439,8 @@ namespace GenMeth.Classes
 		
 		public void SaveCollection()
 		{
-			Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. " + CurrentFileName;
-			FileStream fout = new FileStream(CurrentFileName, FileMode.Create);
+			Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. " + Main_Form.CurrentFileName;
+			FileStream fout = new FileStream(Main_Form.CurrentFileName, FileMode.Create);
 			StreamWriter sw = new StreamWriter(fout);
 			
 			// Обозначаю технологию индексации ключей
