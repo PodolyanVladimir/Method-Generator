@@ -1,6 +1,6 @@
 ﻿/*
  * Сделано в SharpDevelop.
- * Пользователь: ТМ
+ * Пользователь: Asus
  * Дата: 31.01.2018
  * Время: 1:53
  * 
@@ -1054,7 +1054,6 @@ namespace GenMeth
 			dataGridView2.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 		}
 		
-		
 		void СохранитьРешениеToolStripMenuItemClick(object sender, EventArgs e)
 		{
 			if(CurrentFileName.Length > 0)
@@ -1075,10 +1074,6 @@ namespace GenMeth
 			}
 		}
 		
-
-
-		
-
 		void ОткрытьРешениеToolStripMenuItemClick(object sender, EventArgs e)
 		{
 			if(Edited == true)
@@ -1184,8 +1179,6 @@ namespace GenMeth
 				}
 			}
 		}
-		
-		
 		
 		void ВыполнитьГенерациюМетодаToolStripMenuItemClick(object sender, EventArgs e)
 		{

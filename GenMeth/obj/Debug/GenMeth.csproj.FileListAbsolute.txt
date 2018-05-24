@@ -49,3 +49,20 @@ C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Deb
 C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.csproj.GenerateResource.Cache
 C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.exe
 C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.pdb
+D:\GenMeth_V3\GenMeth\GenMeth\bin\Debug\GenMeth.exe.config
+D:\GenMeth_V3\GenMeth\GenMeth\bin\Debug\GenMeth.exe
+D:\GenMeth_V3\GenMeth\GenMeth\bin\Debug\GenMeth.pdb
+D:\GenMeth_V3\GenMeth\GenMeth\bin\Debug\UnikalCtrl.dll
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.csprojResolveAssemblyReference.cache
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.About.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.Dialog.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.Generator.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.MainForm.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.NamesEdit.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.PropertyEdit.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.Propertys.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.RelationsColl.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.RelationsEdit.resources
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.csproj.GenerateResource.Cache
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.exe
+D:\GenMeth_V3\GenMeth\GenMeth\obj\Debug\GenMeth.pdb

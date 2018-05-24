@@ -1,7 +1,7 @@
 Guid
 dataSet1
 CreateDataSet
-2
+5
 5
 5
 0
@@ -11,6 +11,15 @@ fio
 2
 telefons
 Номера телефонов
+3
+city
+Город
+4
+country
+Страна
+5
+world
+Мир
 1
 1
 id_main
