@@ -1,0 +1,51 @@
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\GenMeth.exe.config
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\GenMeth.exe
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\GenMeth.pdb
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.csprojResolveAssemblyReference.cache
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.MainForm.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.csproj.GenerateResource.Cache
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.exe
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.pdb
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.Dialog.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\UnikalCtrl.dll
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.NamesEdit.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.Generator.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.PropertyEdit.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.Propertys.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.RelationsColl.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.RelationsEdit.resources
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\obj\Debug\GenMeth.About.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\bin\Debug\GenMeth.exe.config
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\bin\Debug\GenMeth.exe
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\bin\Debug\GenMeth.pdb
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\bin\Debug\UnikalCtrl.dll
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.About.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.Dialog.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.Generator.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.MainForm.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.NamesEdit.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.PropertyEdit.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.Propertys.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.RelationsColl.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.RelationsEdit.resources
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.exe
+C:\Users\Asus\Desktop\Подолян Диплом 2018\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.pdb
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\bin\Debug\GenMeth.exe.config
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\bin\Debug\GenMeth.exe
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\bin\Debug\GenMeth.pdb
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\bin\Debug\UnikalCtrl.dll
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.About.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.Dialog.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.Generator.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.MainForm.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.NamesEdit.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.PropertyEdit.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.Propertys.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.RelationsColl.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.RelationsEdit.resources
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.exe
+C:\Users\Asus\Desktop\GenMeth_V2_try\Решение SharpDevelop\GenMeth\obj\Debug\GenMeth.pdb

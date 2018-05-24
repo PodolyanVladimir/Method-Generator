@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=SpravkaGM.chm
+Contents file=c:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\Content.hhc
+Default topic=C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\str1.htm
+Display compile progress=No
+Language=0x419 Русский (Россия)
+
+
+[FILES]
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\str1.htm
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\Str2.htm
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\Str3.htm
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\Str4.htm
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\Str5.htm
+C:\Users\ТМ\Documents\SharpDevelop Projects\GenMeth\GenMeth\bin\Debug\Справка\Str6.htm
+
+[INFOTYPES]
+
