@@ -155,6 +155,8 @@ namespace GenMeth
 		}
 		
 		
+		
+		
 		// Метод фильтрации имён столбцов
 		public void FiltrColumns()
 		{
@@ -411,24 +413,9 @@ namespace GenMeth
 		// Метод записи свойств в массив структур P
 		public void WriteProp()
 		{
-			//RecTables();
-			//RecColumns();
-			//P = new ClmnProp[C.Length];
 			// Запись свойств в массив P
 			for(int i = 0; i < my_Columns.Length; i++)
 			{
-				/*my_properties[i] = new ClmnProp(C[i].TbNum,
-				                    C[i].ClmnNum,
-				                    C[i].ClmnComment,
-				                    Propertys.pk.dataGridView1.Rows[i].Cells[6].Value.ToString(),
-									bool.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[3].Value.ToString()),
-									bool.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[4].Value.ToString()),
-									bool.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[5].Value.ToString()),
-									int.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[7].Value.ToString()),
-									int.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[8].Value.ToString()),
-									int.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[9].Value.ToString()),
-									Propertys.pk.dataGridView1.Rows[i].Cells[10].Value.ToString()
-									);*/
 				my_properties[i].ClmnType = Propertys.pk.dataGridView1.Rows[i].Cells[6].Value.ToString();
 				my_properties[i].ClmnPK =bool.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[3].Value.ToString());
 				my_properties[i].ClmnFK = bool.Parse(Propertys.pk.dataGridView1.Rows[i].Cells[4].Value.ToString());
