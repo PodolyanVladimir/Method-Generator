@@ -162,17 +162,20 @@ namespace GenMeth
 		{
 			int nCT = GetCurTable();
 			this.dataGridView2.Rows.Clear();
-			for(int i = 0; i < my_Columns.Length; i++)
+			if(this.dataGridView1.RowCount > 0)
 			{
-				if(my_Columns[i].TbNum == nCT)
+				for(int i = 0; i < my_Columns.Length; i++)
 				{
-					int nRow = this.dataGridView2.Rows.Add();
-					this.dataGridView2.Rows[nRow].Cells[0].Value = my_Columns[i].TbNum.ToString();
-					this.dataGridView2.Rows[nRow].Cells[1].Value = my_Columns[i].ClmnNum.ToString();
-					this.dataGridView2.Rows[nRow].Cells[2].Value = my_Columns[i].ClmnName;
-					this.dataGridView2.Rows[nRow].Cells[3].Value = my_Columns[i].ClmnComment;
+					if(my_Columns[i].TbNum == nCT)
+					{
+						int nRow = this.dataGridView2.Rows.Add();
+						this.dataGridView2.Rows[nRow].Cells[0].Value = my_Columns[i].TbNum.ToString();
+						this.dataGridView2.Rows[nRow].Cells[1].Value = my_Columns[i].ClmnNum.ToString();
+						this.dataGridView2.Rows[nRow].Cells[2].Value = my_Columns[i].ClmnName;
+						this.dataGridView2.Rows[nRow].Cells[3].Value = my_Columns[i].ClmnComment;
+					}
 				}
-			}
+			} 
 		}
 		
 		// Метод проверки наличия имён столбцов для всех таблиц
@@ -1102,6 +1105,10 @@ namespace GenMeth
 					}else{
 						Collection_Class.SaveCollectionDlg();
 					}
+					Collection_Class.OpenCollection();
+				}
+				if(dr == DialogResult.No)
+				{
 					Collection_Class.OpenCollection();
 				}
 			}else{
