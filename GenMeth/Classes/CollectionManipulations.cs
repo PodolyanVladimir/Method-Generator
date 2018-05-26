@@ -34,7 +34,22 @@ namespace GenMeth.Classes
 		
 						// --------------Метод создания нового решения-------------- \\
 		//IdentInputControl ict = new IdentInputControl();		
-				
+		
+		public void CollecionClear()
+		{
+			Main_Form.dataGridView1.Rows.Clear();
+			Main_Form.dataGridView2.Rows.Clear();
+			Main_Form.toolStripButton10.Checked = true;
+			Main_Form.toolStripButton11.Checked = false;
+			Main_Form.toolStripTextBox1.Text = "dataSet1";
+			Main_Form.toolStripTextBox2.Text = "CreateDataSet";
+			Main_Form.Edited = false;
+			Main_Form.toolStripStatusLabel1.Text = "";
+			Main_Form.CurrentFileName = "";
+			Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. ";	
+			Main_Form.toolStripStatusLabel2.Text = "";
+		}
+		
 		public void NewCollection()
 		{
 			if(Main_Form.Edited == true)
@@ -52,15 +67,9 @@ namespace GenMeth.Classes
 					}else{
 						SaveCollectionDlg();
 					}
-					Main_Form.dataGridView1.Rows.Clear();
-					Main_Form.dataGridView2.Rows.Clear();
-					Main_Form.toolStripButton10.Checked = true;
-					Main_Form.toolStripButton11.Checked = false;
-					Main_Form.toolStripTextBox1.Text = "dataSet1";
-					Main_Form.toolStripTextBox2.Text = "CreateDataSet";
-					Main_Form.Edited = false;
-					Main_Form.CurrentFileName = "";
-					Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. ";
+					
+					CollecionClear();
+
 					if(Main_Form.my_Tables != null)
 					{
 						Main_Form.my_Tables = new Tbls[0];
@@ -89,28 +98,12 @@ namespace GenMeth.Classes
 				
 				if(dr == DialogResult.No)
 				{
-					Main_Form.dataGridView1.Rows.Clear();
-					Main_Form.dataGridView2.Rows.Clear();
-					Main_Form.toolStripButton10.Checked = true;
-					Main_Form.toolStripButton11.Checked = false;
-					Main_Form.toolStripTextBox1.Text = "dataSet1";
-					Main_Form.toolStripTextBox2.Text = "CreateDataSet";
-					Main_Form.Edited = false;
-					Main_Form.CurrentFileName = "";
-					Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. ";
+					CollecionClear();
 				}
 				
 			}else{
-				Main_Form.dataGridView1.Rows.Clear();
-				Main_Form.dataGridView2.Rows.Clear();
-				Main_Form.toolStripButton10.Checked = true;
-				Main_Form.toolStripButton11.Checked = false;
-				Main_Form.toolStripTextBox1.Text = "dataSet1";
-				Main_Form.toolStripTextBox2.Text = "CreateDataSet";
-				Main_Form.Edited = false;
-				Main_Form.CurrentFileName = "";
-				Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. ";
-			}
+				CollecionClear();
+				 }
 		}
 		
 		
