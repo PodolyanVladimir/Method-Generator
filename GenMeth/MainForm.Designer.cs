@@ -145,7 +145,7 @@ namespace GenMeth
 									this.справкаToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(825, 24);
+			this.menuStrip1.Size = new System.Drawing.Size(966, 24);
 			this.menuStrip1.TabIndex = 0;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -159,7 +159,7 @@ namespace GenMeth
 									this.toolStripMenuItem2,
 									this.выходToolStripMenuItem});
 			this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-			this.файлToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+			this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
 			this.файлToolStripMenuItem.Text = "&Файл";
 			// 
 			// создатьРешениеToolStripMenuItem
@@ -167,7 +167,7 @@ namespace GenMeth
 			this.создатьРешениеToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("создатьРешениеToolStripMenuItem.Image")));
 			this.создатьРешениеToolStripMenuItem.Name = "создатьРешениеToolStripMenuItem";
 			this.создатьРешениеToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-			this.создатьРешениеToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+			this.создатьРешениеToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
 			this.создатьРешениеToolStripMenuItem.Text = "Со&здать решение";
 			this.создатьРешениеToolStripMenuItem.Click += new System.EventHandler(this.СоздатьРешениеToolStripMenuItemClick);
 			// 
@@ -176,35 +176,35 @@ namespace GenMeth
 			this.открытьРешениеToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("открытьРешениеToolStripMenuItem.Image")));
 			this.открытьРешениеToolStripMenuItem.Name = "открытьРешениеToolStripMenuItem";
 			this.открытьРешениеToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-			this.открытьРешениеToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+			this.открытьРешениеToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
 			this.открытьРешениеToolStripMenuItem.Text = "&Открыть решение";
 			this.открытьРешениеToolStripMenuItem.Click += new System.EventHandler(this.ОткрытьРешениеToolStripMenuItemClick);
 			// 
 			// toolStripMenuItem1
 			// 
 			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-			this.toolStripMenuItem1.Size = new System.Drawing.Size(211, 6);
+			this.toolStripMenuItem1.Size = new System.Drawing.Size(222, 6);
 			// 
 			// сохранитьРешениеToolStripMenuItem
 			// 
 			this.сохранитьРешениеToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("сохранитьРешениеToolStripMenuItem.Image")));
 			this.сохранитьРешениеToolStripMenuItem.Name = "сохранитьРешениеToolStripMenuItem";
 			this.сохранитьРешениеToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-			this.сохранитьРешениеToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+			this.сохранитьРешениеToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
 			this.сохранитьРешениеToolStripMenuItem.Text = "Со&хранить решение";
 			this.сохранитьРешениеToolStripMenuItem.Click += new System.EventHandler(this.СохранитьРешениеToolStripMenuItemClick);
 			// 
 			// toolStripMenuItem2
 			// 
 			this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-			this.toolStripMenuItem2.Size = new System.Drawing.Size(211, 6);
+			this.toolStripMenuItem2.Size = new System.Drawing.Size(222, 6);
 			// 
 			// выходToolStripMenuItem
 			// 
 			this.выходToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("выходToolStripMenuItem.Image")));
 			this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
 			this.выходToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-			this.выходToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+			this.выходToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
 			this.выходToolStripMenuItem.Text = "В&ыход";
 			this.выходToolStripMenuItem.Click += new System.EventHandler(this.ВыходToolStripMenuItemClick);
 			// 
@@ -216,14 +216,14 @@ namespace GenMeth
 									this.toolStripMenuItem3,
 									this.удалитьИмяТаблицыToolStripMenuItem});
 			this.таблицыToolStripMenuItem.Name = "таблицыToolStripMenuItem";
-			this.таблицыToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+			this.таблицыToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
 			this.таблицыToolStripMenuItem.Text = "&Таблицы";
 			// 
 			// добавитьИмяТаблицыToolStripMenuItem
 			// 
 			this.добавитьИмяТаблицыToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("добавитьИмяТаблицыToolStripMenuItem.Image")));
 			this.добавитьИмяТаблицыToolStripMenuItem.Name = "добавитьИмяТаблицыToolStripMenuItem";
-			this.добавитьИмяТаблицыToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+			this.добавитьИмяТаблицыToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
 			this.добавитьИмяТаблицыToolStripMenuItem.Text = "Добавить имя таблицы";
 			this.добавитьИмяТаблицыToolStripMenuItem.Click += new System.EventHandler(this.ДобавитьИмяТаблицыToolStripMenuItemClick);
 			// 
@@ -231,20 +231,20 @@ namespace GenMeth
 			// 
 			this.изменитьИмяТаблицыToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("изменитьИмяТаблицыToolStripMenuItem.Image")));
 			this.изменитьИмяТаблицыToolStripMenuItem.Name = "изменитьИмяТаблицыToolStripMenuItem";
-			this.изменитьИмяТаблицыToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+			this.изменитьИмяТаблицыToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
 			this.изменитьИмяТаблицыToolStripMenuItem.Text = "Изменить имя таблицы";
 			this.изменитьИмяТаблицыToolStripMenuItem.Click += new System.EventHandler(this.ИзменитьИмяТаблицыToolStripMenuItemClick);
 			// 
 			// toolStripMenuItem3
 			// 
 			this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-			this.toolStripMenuItem3.Size = new System.Drawing.Size(189, 6);
+			this.toolStripMenuItem3.Size = new System.Drawing.Size(201, 6);
 			// 
 			// удалитьИмяТаблицыToolStripMenuItem
 			// 
 			this.удалитьИмяТаблицыToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("удалитьИмяТаблицыToolStripMenuItem.Image")));
 			this.удалитьИмяТаблицыToolStripMenuItem.Name = "удалитьИмяТаблицыToolStripMenuItem";
-			this.удалитьИмяТаблицыToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+			this.удалитьИмяТаблицыToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
 			this.удалитьИмяТаблицыToolStripMenuItem.Text = "Удалить имя таблицы";
 			this.удалитьИмяТаблицыToolStripMenuItem.Click += new System.EventHandler(this.УдалитьИмяТаблицыToolStripMenuItemClick);
 			// 
@@ -256,14 +256,14 @@ namespace GenMeth
 									this.toolStripMenuItem4,
 									this.удалитьИмяСтолбцаToolStripMenuItem});
 			this.столбцыToolStripMenuItem.Name = "столбцыToolStripMenuItem";
-			this.столбцыToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+			this.столбцыToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
 			this.столбцыToolStripMenuItem.Text = "&Столбцы";
 			// 
 			// добавитьИмяСтолбцаToolStripMenuItem
 			// 
 			this.добавитьИмяСтолбцаToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("добавитьИмяСтолбцаToolStripMenuItem.Image")));
 			this.добавитьИмяСтолбцаToolStripMenuItem.Name = "добавитьИмяСтолбцаToolStripMenuItem";
-			this.добавитьИмяСтолбцаToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+			this.добавитьИмяСтолбцаToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
 			this.добавитьИмяСтолбцаToolStripMenuItem.Text = "Добавить имя столбца";
 			this.добавитьИмяСтолбцаToolStripMenuItem.Click += new System.EventHandler(this.ДобавитьИмяСтолбцаToolStripMenuItemClick);
 			// 
@@ -271,20 +271,20 @@ namespace GenMeth
 			// 
 			this.изменитьИмяСтолбцаToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("изменитьИмяСтолбцаToolStripMenuItem.Image")));
 			this.изменитьИмяСтолбцаToolStripMenuItem.Name = "изменитьИмяСтолбцаToolStripMenuItem";
-			this.изменитьИмяСтолбцаToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+			this.изменитьИмяСтолбцаToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
 			this.изменитьИмяСтолбцаToolStripMenuItem.Text = "Изменить имя столбца";
 			this.изменитьИмяСтолбцаToolStripMenuItem.Click += new System.EventHandler(this.ИзменитьИмяСтолбцаToolStripMenuItemClick);
 			// 
 			// toolStripMenuItem4
 			// 
 			this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-			this.toolStripMenuItem4.Size = new System.Drawing.Size(186, 6);
+			this.toolStripMenuItem4.Size = new System.Drawing.Size(198, 6);
 			// 
 			// удалитьИмяСтолбцаToolStripMenuItem
 			// 
 			this.удалитьИмяСтолбцаToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("удалитьИмяСтолбцаToolStripMenuItem.Image")));
 			this.удалитьИмяСтолбцаToolStripMenuItem.Name = "удалитьИмяСтолбцаToolStripMenuItem";
-			this.удалитьИмяСтолбцаToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+			this.удалитьИмяСтолбцаToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
 			this.удалитьИмяСтолбцаToolStripMenuItem.Text = "Удалить имя столбца";
 			this.удалитьИмяСтолбцаToolStripMenuItem.Click += new System.EventHandler(this.УдалитьИмяСтолбцаToolStripMenuItemClick);
 			// 
@@ -296,14 +296,14 @@ namespace GenMeth
 									this.toolStripMenuItem5,
 									this.выполнитьГенерациюМетодаToolStripMenuItem});
 			this.проектToolStripMenuItem.Name = "проектToolStripMenuItem";
-			this.проектToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+			this.проектToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
 			this.проектToolStripMenuItem.Text = "&Проект";
 			// 
 			// режимРедакторасвойствToolStripMenuItem
 			// 
 			this.режимРедакторасвойствToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("режимРедакторасвойствToolStripMenuItem.Image")));
 			this.режимРедакторасвойствToolStripMenuItem.Name = "режимРедакторасвойствToolStripMenuItem";
-			this.режимРедакторасвойствToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+			this.режимРедакторасвойствToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
 			this.режимРедакторасвойствToolStripMenuItem.Text = "Редактор &свойств";
 			this.режимРедакторасвойствToolStripMenuItem.Click += new System.EventHandler(this.РежимРедакторасвойствToolStripMenuItemClick);
 			// 
@@ -311,20 +311,20 @@ namespace GenMeth
 			// 
 			this.режимРедактораотношенийToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("режимРедактораотношенийToolStripMenuItem.Image")));
 			this.режимРедактораотношенийToolStripMenuItem.Name = "режимРедактораотношенийToolStripMenuItem";
-			this.режимРедактораотношенийToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+			this.режимРедактораотношенийToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
 			this.режимРедактораотношенийToolStripMenuItem.Text = "Редактор &отношений";
 			this.режимРедактораотношенийToolStripMenuItem.Click += new System.EventHandler(this.РежимРедактораотношенийToolStripMenuItemClick);
 			// 
 			// toolStripMenuItem5
 			// 
 			this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-			this.toolStripMenuItem5.Size = new System.Drawing.Size(226, 6);
+			this.toolStripMenuItem5.Size = new System.Drawing.Size(239, 6);
 			// 
 			// выполнитьГенерациюМетодаToolStripMenuItem
 			// 
 			this.выполнитьГенерациюМетодаToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("выполнитьГенерациюМетодаToolStripMenuItem.Image")));
 			this.выполнитьГенерациюМетодаToolStripMenuItem.Name = "выполнитьГенерациюМетодаToolStripMenuItem";
-			this.выполнитьГенерациюМетодаToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+			this.выполнитьГенерациюМетодаToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
 			this.выполнитьГенерациюМетодаToolStripMenuItem.Text = "Выполнить генерацию метода";
 			this.выполнитьГенерациюМетодаToolStripMenuItem.Click += new System.EventHandler(this.ВыполнитьГенерациюМетодаToolStripMenuItemClick);
 			// 
@@ -335,27 +335,27 @@ namespace GenMeth
 									this.toolStripMenuItem6,
 									this.оПрограммеToolStripMenuItem});
 			this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+			this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
 			this.справкаToolStripMenuItem.Text = "Спра&вка";
 			// 
 			// вызватьСправкуToolStripMenuItem
 			// 
 			this.вызватьСправкуToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("вызватьСправкуToolStripMenuItem.Image")));
 			this.вызватьСправкуToolStripMenuItem.Name = "вызватьСправкуToolStripMenuItem";
-			this.вызватьСправкуToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+			this.вызватьСправкуToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
 			this.вызватьСправкуToolStripMenuItem.Text = "В&ызвать справку";
 			this.вызватьСправкуToolStripMenuItem.Click += new System.EventHandler(this.ВызватьСправкуToolStripMenuItemClick);
 			// 
 			// toolStripMenuItem6
 			// 
 			this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-			this.toolStripMenuItem6.Size = new System.Drawing.Size(158, 6);
+			this.toolStripMenuItem6.Size = new System.Drawing.Size(162, 6);
 			// 
 			// оПрограммеToolStripMenuItem
 			// 
 			this.оПрограммеToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("оПрограммеToolStripMenuItem.Image")));
 			this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
-			this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+			this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
 			this.оПрограммеToolStripMenuItem.Text = "&О программе";
 			this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.ОПрограммеToolStripMenuItemClick);
 			// 
@@ -389,7 +389,7 @@ namespace GenMeth
 									this.toolStripSeparator7});
 			this.toolStrip1.Location = new System.Drawing.Point(0, 24);
 			this.toolStrip1.Name = "toolStrip1";
-			this.toolStrip1.Size = new System.Drawing.Size(825, 25);
+			this.toolStrip1.Size = new System.Drawing.Size(966, 25);
 			this.toolStrip1.TabIndex = 2;
 			this.toolStrip1.Text = "toolStrip1";
 			// 
@@ -439,8 +439,9 @@ namespace GenMeth
 			// toolStripLabel1
 			// 
 			this.toolStripLabel1.Name = "toolStripLabel1";
-			this.toolStripLabel1.Size = new System.Drawing.Size(51, 22);
-			this.toolStripLabel1.Text = "Таблицы";
+			this.toolStripLabel1.Size = new System.Drawing.Size(60, 22);
+			this.toolStripLabel1.Text = "Таблицы:";
+			this.toolStripLabel1.ToolTipText = "Работа с таблицами";
 			// 
 			// toolStripButton4
 			// 
@@ -450,7 +451,7 @@ namespace GenMeth
 			this.toolStripButton4.Name = "toolStripButton4";
 			this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
 			this.toolStripButton4.Text = "toolStripButton4";
-			this.toolStripButton4.ToolTipText = "Добавить имя таблицы";
+			this.toolStripButton4.ToolTipText = "Добавить таблицу";
 			this.toolStripButton4.Click += new System.EventHandler(this.ToolStripButton4Click);
 			// 
 			// toolStripButton5
@@ -472,7 +473,7 @@ namespace GenMeth
 			this.toolStripButton6.Name = "toolStripButton6";
 			this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
 			this.toolStripButton6.Text = "toolStripButton6";
-			this.toolStripButton6.ToolTipText = "Удалить имя таблицы";
+			this.toolStripButton6.ToolTipText = "Удалить таблицу";
 			this.toolStripButton6.Click += new System.EventHandler(this.ToolStripButton6Click);
 			// 
 			// toolStripSeparator3
@@ -483,8 +484,9 @@ namespace GenMeth
 			// toolStripLabel2
 			// 
 			this.toolStripLabel2.Name = "toolStripLabel2";
-			this.toolStripLabel2.Size = new System.Drawing.Size(52, 22);
-			this.toolStripLabel2.Text = "Столбцы";
+			this.toolStripLabel2.Size = new System.Drawing.Size(60, 22);
+			this.toolStripLabel2.Text = "Столбцы:";
+			this.toolStripLabel2.ToolTipText = "Работа со столбцами";
 			// 
 			// toolStripButton7
 			// 
@@ -494,7 +496,7 @@ namespace GenMeth
 			this.toolStripButton7.Name = "toolStripButton7";
 			this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
 			this.toolStripButton7.Text = "toolStripButton7";
-			this.toolStripButton7.ToolTipText = "Добавить имя столбца";
+			this.toolStripButton7.ToolTipText = "Добавить новый столбец";
 			this.toolStripButton7.Click += new System.EventHandler(this.ToolStripButton7Click);
 			// 
 			// toolStripButton8
@@ -527,7 +529,7 @@ namespace GenMeth
 			// toolStripLabel3
 			// 
 			this.toolStripLabel3.Name = "toolStripLabel3";
-			this.toolStripLabel3.Size = new System.Drawing.Size(110, 22);
+			this.toolStripLabel3.Size = new System.Drawing.Size(119, 22);
 			this.toolStripLabel3.Text = "Индексация ключей";
 			// 
 			// toolStripButton10
@@ -537,7 +539,7 @@ namespace GenMeth
 			this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
 			this.toolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.toolStripButton10.Name = "toolStripButton10";
-			this.toolStripButton10.Size = new System.Drawing.Size(36, 22);
+			this.toolStripButton10.Size = new System.Drawing.Size(38, 22);
 			this.toolStripButton10.Text = "GUID";
 			this.toolStripButton10.ToolTipText = "Технология индексации ключей GUID (Рекомендуется)";
 			this.toolStripButton10.Click += new System.EventHandler(this.ToolStripButton10Click);
@@ -547,7 +549,7 @@ namespace GenMeth
 			this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
 			this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.toolStripButton11.Name = "toolStripButton11";
-			this.toolStripButton11.Size = new System.Drawing.Size(49, 22);
+			this.toolStripButton11.Size = new System.Drawing.Size(53, 22);
 			this.toolStripButton11.Text = "AutoInc";
 			this.toolStripButton11.ToolTipText = "Технология индексации ключей AutoIncrement";
 			this.toolStripButton11.Click += new System.EventHandler(this.ToolStripButton11Click);
@@ -611,7 +613,7 @@ namespace GenMeth
 									this.toolStripStatusLabel3});
 			this.statusStrip1.Location = new System.Drawing.Point(0, 540);
 			this.statusStrip1.Name = "statusStrip1";
-			this.statusStrip1.Size = new System.Drawing.Size(825, 22);
+			this.statusStrip1.Size = new System.Drawing.Size(966, 22);
 			this.statusStrip1.TabIndex = 1;
 			this.statusStrip1.Text = "statusStrip1";
 			// 
@@ -635,8 +637,8 @@ namespace GenMeth
 			// 
 			this.splitContainer1.Panel2.Controls.Add(this.dataGridView2);
 			this.splitContainer1.Panel2.Controls.Add(this.statusStrip3);
-			this.splitContainer1.Size = new System.Drawing.Size(825, 491);
-			this.splitContainer1.SplitterDistance = 380;
+			this.splitContainer1.Size = new System.Drawing.Size(966, 491);
+			this.splitContainer1.SplitterDistance = 442;
 			this.splitContainer1.TabIndex = 5;
 			// 
 			// dataGridView1
@@ -647,6 +649,7 @@ namespace GenMeth
 									this.Column1,
 									this.Column2,
 									this.Column4});
+			this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
 			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
 			dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
 			dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -657,10 +660,13 @@ namespace GenMeth
 			this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
 			this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+			this.dataGridView1.MultiSelect = false;
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.ReadOnly = true;
 			this.dataGridView1.RowHeadersVisible = false;
-			this.dataGridView1.Size = new System.Drawing.Size(380, 469);
+			this.dataGridView1.RowTemplate.ReadOnly = true;
+			this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+			this.dataGridView1.Size = new System.Drawing.Size(442, 469);
 			this.dataGridView1.TabIndex = 3;
 			this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1CellClick);
 			this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1CellValueChanged);
@@ -669,11 +675,11 @@ namespace GenMeth
 			// 
 			// Column1
 			// 
-			this.Column1.HeaderText = "№ т";
+			this.Column1.HeaderText = "№ Таблицы";
 			this.Column1.Name = "Column1";
 			this.Column1.ReadOnly = true;
 			this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			this.Column1.Width = 35;
+			this.Column1.Width = 80;
 			// 
 			// Column2
 			// 
@@ -697,7 +703,7 @@ namespace GenMeth
 									this.toolStripStatusLabel1});
 			this.statusStrip2.Location = new System.Drawing.Point(0, 469);
 			this.statusStrip2.Name = "statusStrip2";
-			this.statusStrip2.Size = new System.Drawing.Size(380, 22);
+			this.statusStrip2.Size = new System.Drawing.Size(442, 22);
 			this.statusStrip2.TabIndex = 2;
 			this.statusStrip2.Text = "statusStrip2";
 			// 
@@ -729,7 +735,7 @@ namespace GenMeth
 			this.dataGridView2.Name = "dataGridView2";
 			this.dataGridView2.ReadOnly = true;
 			this.dataGridView2.RowHeadersVisible = false;
-			this.dataGridView2.Size = new System.Drawing.Size(441, 469);
+			this.dataGridView2.Size = new System.Drawing.Size(520, 469);
 			this.dataGridView2.TabIndex = 3;
 			this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView2CellContentClick);
 			this.dataGridView2.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView2CellValueChanged);
@@ -737,19 +743,19 @@ namespace GenMeth
 			// 
 			// dataGridViewTextBoxColumn1
 			// 
-			this.dataGridViewTextBoxColumn1.HeaderText = "№ т";
+			this.dataGridViewTextBoxColumn1.HeaderText = "№ Таблицы";
 			this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
 			this.dataGridViewTextBoxColumn1.ReadOnly = true;
 			this.dataGridViewTextBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			this.dataGridViewTextBoxColumn1.Width = 35;
+			this.dataGridViewTextBoxColumn1.Width = 80;
 			// 
 			// dataGridViewTextBoxColumn2
 			// 
-			this.dataGridViewTextBoxColumn2.HeaderText = "№ с";
+			this.dataGridViewTextBoxColumn2.HeaderText = "№ Столбца";
 			this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
 			this.dataGridViewTextBoxColumn2.ReadOnly = true;
 			this.dataGridViewTextBoxColumn2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-			this.dataGridViewTextBoxColumn2.Width = 35;
+			this.dataGridViewTextBoxColumn2.Width = 80;
 			// 
 			// Column3
 			// 
@@ -772,13 +778,13 @@ namespace GenMeth
 			this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.показатьВсёToolStripMenuItem});
 			this.contextMenuStrip1.Name = "contextMenuStrip1";
-			this.contextMenuStrip1.Size = new System.Drawing.Size(143, 26);
+			this.contextMenuStrip1.Size = new System.Drawing.Size(146, 26);
 			this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.ContextMenuStrip1Opening);
 			// 
 			// показатьВсёToolStripMenuItem
 			// 
 			this.показатьВсёToolStripMenuItem.Name = "показатьВсёToolStripMenuItem";
-			this.показатьВсёToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+			this.показатьВсёToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
 			this.показатьВсёToolStripMenuItem.Text = "Показать всё";
 			this.показатьВсёToolStripMenuItem.Click += new System.EventHandler(this.ПоказатьВсёToolStripMenuItemClick);
 			// 
@@ -788,7 +794,7 @@ namespace GenMeth
 									this.toolStripStatusLabel2});
 			this.statusStrip3.Location = new System.Drawing.Point(0, 469);
 			this.statusStrip3.Name = "statusStrip3";
-			this.statusStrip3.Size = new System.Drawing.Size(441, 22);
+			this.statusStrip3.Size = new System.Drawing.Size(520, 22);
 			this.statusStrip3.TabIndex = 2;
 			this.statusStrip3.Text = "statusStrip3";
 			// 
@@ -809,7 +815,7 @@ namespace GenMeth
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(825, 562);
+			this.ClientSize = new System.Drawing.Size(966, 562);
 			this.Controls.Add(this.splitContainer1);
 			this.Controls.Add(this.statusStrip1);
 			this.Controls.Add(this.toolStrip1);
@@ -854,8 +860,8 @@ namespace GenMeth
 		public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
 		public System.Windows.Forms.ToolStripMenuItem показатьВсёToolStripMenuItem;
 		public System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-		public System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-		public System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
 		public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
 		public System.Windows.Forms.StatusStrip statusStrip3;
 		public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
@@ -874,11 +880,11 @@ namespace GenMeth
 		public System.Windows.Forms.ToolStripButton toolStripButton10;
 		public System.Windows.Forms.ToolStripLabel toolStripLabel3;
 		public System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-		public System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-		public System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-		public System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-		public System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-		public System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+		private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
 		public System.Windows.Forms.StatusStrip statusStrip1;
 		public System.Windows.Forms.ToolStripMenuItem удалитьИмяСтолбцаToolStripMenuItem;
 		public System.Windows.Forms.ToolStripSeparator toolStripMenuItem4;
