@@ -69,6 +69,7 @@ namespace GenMeth
 		
 		void PropertysLoad(object sender, EventArgs e)
 		{
+			dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 			if(MainForm.Main_Form.toolStripButton10.Checked == true)
 			{
 				this.dataGridView1.Columns[8].Visible = false;
