@@ -1039,6 +1039,10 @@ namespace GenMeth
 		
 		void MainFormLoad(object sender, EventArgs e)
 		{
+			this.dataGridView1.ColumnHeadersHeightSizeMode =
+				DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+			this.dataGridView2.ColumnHeadersHeightSizeMode =
+				DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
 			this.toolStripStatusLabel3.Text = "Редактор коллекции имён.";
 			Edited = false;
 			About ap = new About();
