@@ -196,6 +196,7 @@ namespace GenMeth
 		
 		void RelationsCollLoad(object sender, EventArgs e)
 		{
+			dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 			EditFl = false;
 		}
 		
