@@ -6,6 +6,13 @@
  * 
  * Для изменения этого шаблона используйте Сервис | Настройка | Кодирование | Правка стандартных заголовков.
  */
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+using System.IO;
+using IdentCtrl;
+ 
 namespace GenMeth
 {
 	partial class Propertys
@@ -108,7 +115,7 @@ namespace GenMeth
 									this.toolStripStatusLabel2});
 			this.statusStrip1.Location = new System.Drawing.Point(0, 0);
 			this.statusStrip1.Name = "statusStrip1";
-			this.statusStrip1.Size = new System.Drawing.Size(805, 22);
+			this.statusStrip1.Size = new System.Drawing.Size(804, 22);
 			this.statusStrip1.TabIndex = 1;
 			// 
 			// toolStripStatusLabel1
@@ -135,7 +142,7 @@ namespace GenMeth
 			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.InfoText;
 			dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
 			this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
 			this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
 									this.Column1,
 									this.Column2,
@@ -159,9 +166,12 @@ namespace GenMeth
 			this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
 			this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+			this.dataGridView1.MultiSelect = false;
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.ReadOnly = true;
 			this.dataGridView1.RowHeadersVisible = false;
+			this.dataGridView1.RowTemplate.ReadOnly = true;
+			this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
 			this.dataGridView1.Size = new System.Drawing.Size(804, 277);
 			this.dataGridView1.TabIndex = 0;
 			this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1CellValueChanged);
