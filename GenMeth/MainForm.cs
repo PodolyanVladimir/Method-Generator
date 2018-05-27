@@ -1275,9 +1275,16 @@ namespace GenMeth
 			dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 		}
 		
-		void DataGridView2CellContentClick(object sender, DataGridViewCellEventArgs e)
+				void DataGridView1CellMouseEnter(object sender, DataGridViewCellEventArgs e)
 		{
-			
+				this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
 		}
+		
+		void DataGridView1CellMouseLeave(object sender, DataGridViewCellEventArgs e)
+		{
+				this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Arrow;
+		}
+		
+		
 	}
 }
