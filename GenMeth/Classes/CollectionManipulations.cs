@@ -24,18 +24,19 @@ namespace GenMeth.Classes
 		
 		IdentInputControl ict = new IdentInputControl();
 		
+		/*
 		public Tbls[] my_coll_Tables;			// Массив структур таблиц
 		public Clmns[] my_coll_Columns;			// Массив структур столбцов
 		public ClmnProp[] my_coll_properties;		// Массив структур свойств
 		public ClmnProp[] P_coll_rez;	// Резервный массив структур свойств
 		public Rels[] my_coll_Relations;			// Массив структур отношений
 		public Rels[] R_coll_rez;		// Резервный массив структур отношений
-		
+		*/
 		
 						// --------------Метод создания нового решения-------------- \\
 		//IdentInputControl ict = new IdentInputControl();		
 		
-		public void CollecionClear()
+		public void FormClear()
 		{
 			Main_Form.dataGridView1.Rows.Clear();
 			Main_Form.dataGridView2.Rows.Clear();
@@ -49,26 +50,10 @@ namespace GenMeth.Classes
 			Main_Form.toolStripStatusLabel3.Text = "Редактор коллекции имён. ";	
 			Main_Form.toolStripStatusLabel2.Text = "";
 		}
-		
-		public void NewCollection()
+
+		public void CollectionClear()
 		{
-			if(Main_Form.Edited == true)
-			{
-				DialogResult dr = MessageBox.Show("Сохранить внесённые изменения?",
-				                                  "Генератор методов",
-				                                  MessageBoxButtons.YesNoCancel,
-				                                  MessageBoxIcon.Question,
-				                                  MessageBoxDefaultButton.Button1);
-				if(dr == DialogResult.Yes)
-				{
-					if(Main_Form.CurrentFileName.Length > 0)
-					{
-						SaveCollection();
-					}else{
-						SaveCollectionDlg();
-					}
-					
-					CollecionClear();
+			FormClear();
 
 					if(Main_Form.my_Tables != null)
 					{
@@ -94,16 +79,38 @@ namespace GenMeth.Classes
 					{
 						Main_Form.R_rez = new Rels[0];
 					}
+		}
+
+
+		
+		public void NewCollection()
+		{
+			if(Main_Form.Edited == true)
+			{
+				DialogResult dr = MessageBox.Show("Сохранить внесённые изменения?",
+				     "Генератор методов", MessageBoxButtons.YesNoCancel,
+				     MessageBoxIcon.Question, MessageBoxDefaultButton.Button1);
+				if(dr == DialogResult.Yes)
+				{
+						if(Main_Form.CurrentFileName.Length > 0)
+						{
+							SaveCollection();
+						}else
+						{
+							SaveCollectionDlg();
+						}
+					CollectionClear();
 				}
-				
+
 				if(dr == DialogResult.No)
 				{
-					CollecionClear();
+					CollectionClear();
 				}
 				
-			}else{
-				CollecionClear();
-				 }
+			}else
+			{
+				FormClear();
+			}
 		}
 		
 		
