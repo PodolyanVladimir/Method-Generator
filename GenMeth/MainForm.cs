@@ -41,6 +41,7 @@ namespace GenMeth
 		public string CurrentFileName = ""; // Имя текущего файла
 		public bool Edited = false;			// Флаг редактирования
 		public bool FromMenuExit = false;	// Флаг выхода через меню
+		
 
 		IdentInputControl ict = new IdentInputControl();
 		
@@ -1183,7 +1184,16 @@ namespace GenMeth
 		
 		void ВыполнитьГенерациюМетодаToolStripMenuItemClick(object sender, EventArgs e)
 		{
-			Generator_Class.MethodGenerate();
+			if(my_Tables == null || my_Columns == null || my_properties == null || my_Relations == null)
+			{
+				DialogResult dr = MessageBox.Show("База данных '" 
+				+ toolStripTextBox1.Text + "' заполнена не полностью", "Генератор методов",
+				MessageBoxButtons.OKCancel, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);	
+				
+				
+			}else{
+				Generator_Class.MethodGenerate();
+			}
 		}
 		
 		// Метод проверки наличия первичных ключей
