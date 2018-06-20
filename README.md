@@ -1,2 +1,2 @@
 # Method-Generator
-Method Generator for DB on C#
+Generator of DataSet methods in C # for local database
